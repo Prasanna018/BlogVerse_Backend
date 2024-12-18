@@ -18,7 +18,7 @@ app.use(express.json())
 import cookieParser from 'cookie-parser';
 app.use(cookieParser())
 app.use(cors({
-    origin: 'http://localhost:5173', // Frontend URL
+    origin: 'https://blogverse-frontend.onrender.com', // Frontend URL
     credentials: true, // Allow credentials
 }))
 
