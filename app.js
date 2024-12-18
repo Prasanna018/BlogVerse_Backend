@@ -20,6 +20,7 @@ app.use(cookieParser())
 app.use(cors({
     origin: 'https://blogverse-frontend.onrender.com', // Frontend URL
     credentials: true, // Allow credentials
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }))
 
 
